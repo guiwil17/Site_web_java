@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'Hello, ' + ${name} + '!'" />
+<p th:text="'Cookie, ' + ${foo} + '!'" />
+<p th:text="'valueSession = '+ ${session.valueSession}"/>
+<p th:text="'valueSession2 = '+ ${session.valueSession2}"/>
+<ul th:each="e : ${someList}">
+    <li th:text="${e}"/><br/>
+</ul>
+</body>
+</html>
