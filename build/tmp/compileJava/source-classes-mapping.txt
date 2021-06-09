@@ -4,3 +4,9 @@ com/example/servingwebcontent/GreetingController.java
  com.example.servingwebcontent.GreetingController
 com/example/servingwebcontent/Connexion.java
  com.example.servingwebcontent.Connexion
+com/example/servingwebcontent/Customer.java
+ com.example.servingwebcontent.Customer
+com/example/servingwebcontent/CustomerRepository.java
+ com.example.servingwebcontent.CustomerRepository
+com/example/servingwebcontent/AccessingDataJpaApplication.java
+ com.example.servingwebcontent.AccessingDataJpaApplication
