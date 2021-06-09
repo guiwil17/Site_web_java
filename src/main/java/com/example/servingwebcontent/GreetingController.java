@@ -49,6 +49,18 @@ public class GreetingController {
         status.setComplete();
         return "redirect:/greeting";
     }
+    @GetMapping("/connexion")
+    public String greetingForm(Model model) {
+        model.addAttribute("connexion", new Connexion());
+        return "connexion";
+    }
+
+    @PostMapping("/connexion")
+    public String greetingSubmit(@ModelAttribute Connexion connexion, Model model) {
+        model.addAttribute("connexion", connexion);
+        return "result";
+    }
+
 
     @ModelAttribute("someList")
     public List<String> getSomeList(){
